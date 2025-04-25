@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.pagina{
+    display: grid;
+    grid-template-rows: 25% 75%;
+    grid-template-columns: 20% 80%;
+    height: 100vh;
+}
+
+.banner,.bio,.videos{
+    border: 2px solid black;
+}
+
+.banner{
+    grid-column: span 2;
+}
+
+.bio{
+    display: grid;
+    grid-template-rows: 40% 30% 30%;
+}
+
+.imagen,.texto,.enlaces{
+    border: 2px solid black;
+}
+
+.videos{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 40% 5% 40% 5% 10%;
+}
+
+.videos>*{
+    border: 2px solid black;
+}
+
+.indice{
+    grid-column: span 2;
+}
